@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>beginning_fsharp</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="..\Modules\IO.fs" />
+    <Compile Include="..\Modules\Generic.fs" />
+    <Compile Include="..\Modules\POO.fs" />
+    <Compile Include="..\Modules\Tree.fs" />
+    <Compile Include="..\Modules\Actors.fs" />
+    <Compile Include="..\Modules\Reactive.fs" />
+    <Compile Include="..\Modules\Retry.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+  <Import Project="..\..\.paket\Paket.Restore.targets" />
+</Project>
