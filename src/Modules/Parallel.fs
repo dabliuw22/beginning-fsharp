@@ -40,7 +40,7 @@ module Img =
 
         bitmap.Save(destination, ImageFormat.Jpeg)
 
-    let run (a: unit) : unit =
+    let run (_: unit) : unit =
         try
             // El orden de ejecución de la tarea no está garantizado :(
             Parallel.Invoke(
