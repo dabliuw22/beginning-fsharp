@@ -13,6 +13,7 @@
     <Compile Include="..\Modules\Actors.fs" />
     <Compile Include="..\Modules\Reactive.fs" />
     <Compile Include="..\Modules\Retry.fs" />
+    <Compile Include="..\Modules\Parallel.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
   <Import Project="..\..\.paket\Paket.Restore.targets" />
