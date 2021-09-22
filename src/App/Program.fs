@@ -6,6 +6,7 @@ open POO
 open Actors
 open Reactive
 open Retry.Async
+open Parallel
 
 let eval num =
     if num > 0 then
@@ -64,5 +65,7 @@ let main (argv: string []) : int =
     let oo = Simple("Hello")
     let message = oo.GetMessage()
     printfn "OO: %s" message
+
+    Img.run ()
 
     0 // return an integer exit code
