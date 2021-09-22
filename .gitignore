@@ -33,3 +33,6 @@ paket.lock
 *.obtained
 .paket/
 paket-files/
+resources/ginevra_de_benci_gray.jpeg
+resources/mona_lisa_3d.jpeg
+.DS_Store
